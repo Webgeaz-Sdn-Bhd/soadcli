@@ -1,10 +1,13 @@
 ---
 name: soad-framework
 description: >-
-  Write code for the SØAD web framework — Jython transactions (*.py), Handlebars view templates (*.html), and the SQL the developer runs in the IDE's SQL editor. Use whenever a task involves building, editing, or explaining SØAD application code: transactions, views, models, routing, CRUD apps, file upload, JSON/AJAX/htmx endpoints, DataTables, Excel/PDF/email output. Also use when working in a local SØAD project that syncs via the soad CLI (soad pull / push / create) — e.g. a src/ tree of group/code/code.py and _code/ html view files, or a .config.json / .soad-checksums.json present. SØAD is also written SOAD or soad.
+  Legacy skill for SØAD CLI v1. Write code for the SØAD web framework — Jython transactions (*.py), Handlebars view templates (*.html), and the SQL the developer runs in the IDE's SQL editor. Use whenever a task involves building, editing, or explaining SØAD application code: transactions, views, models, routing, CRUD apps, file upload, JSON/AJAX/htmx endpoints, DataTables, Excel/PDF/email output. Also use when working in a local SØAD project that syncs via the soad CLI (soad pull / push / create) — e.g. a src/ tree of group/code/code.py and _code/ html view files, or a .config.json / .soad-checksums.json present. SØAD is also written SOAD or soad.
 ---
 
 # SØAD Framework
+
+This skill is for SØAD CLI v1. For the current SUFIA CLI, use the
+[SUFIA framework skill](../sufia-framework/SKILL.md).
 
 SØAD is a convention-over-configuration MVC web framework on the JVM. Controllers (called **Transactions**) are written in **Jython** (Python 2.7 syntax on Java), views in **Handlebars.java**, models via **ActiveJDBC** (auto-generated from DB tables). This skill helps you write transaction code, view templates, and the SQL the developer runs in the IDE.
 

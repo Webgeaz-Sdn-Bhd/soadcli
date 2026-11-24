@@ -1,5 +1,8 @@
 # SØAD Framework — Coding Context (Web Chat)
 
+This guide is for the legacy SØAD web IDE. For current SUFIA development,
+use the [SUFIA framework AI context](SUFIA_FRAMEWORK_AI_CONTEXT.md).
+
 SØAD is a convention-over-configuration MVC web framework on the JVM. Controllers (called **Transactions**) are written in **Jython** (Python 2.7 syntax on Java), views in **Handlebars.java**, models via **ActiveJDBC** (auto-generated from DB tables). Use this file as context when writing transaction code, view templates, or SQL for the **web IDE / paste** workflow (labeled code blocks for the developer to apply).
 
 **Naming:** Canonical spelling is **SØAD**. "SOAD" and "soad" are accepted shorthand — treat them as identical on input. Use **SØAD** in generated prose, docs, and comments. Keep lowercase `soad` as-is in code identifiers, module names, and file paths — do NOT "correct" those.
